@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
+
 	<!-- ================== BEGIN core-css ================== -->
 	<link href="assets/css/vendor.min.css" rel="stylesheet">
 	<link href="assets/css/app.min.css" rel="stylesheet">
 	<!-- ================== END core-css ================== -->
-	
+
 </head>
 <body>
 	<!-- BEGIN #app -->
@@ -44,14 +44,14 @@
 					</div>
 					<button type="submit" class="btn btn-theme btn-lg d-block w-100 fw-500 mb-3">Sign In</button>
 					<div class="text-center text-muted">
-						Don't have an account yet? <a href="page_register.html">Sign up</a>.
+						Don't have an account yet? <a href="{{ route('register') }}">Sign up</a>.
 					</div>
 				</form>
 			</div>
 			<!-- END login-content -->
 		</div>
 		<!-- END login -->
-		
+
 		<!-- BEGIN btn-scroll-top -->
 		<a href="#" data-click="scroll-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
 		<!-- END btn-scroll-top -->
@@ -95,12 +95,12 @@
 	<!-- END theme-panel -->
 	</div>
 	<!-- END #app -->
-	
+
 	<!-- ================== BEGIN core-js ================== -->
 	<script src="assets/js/vendor.min.js"></script>
 	<script src="assets/js/app.min.js"></script>
 	<!-- ================== END core-js ================== -->
-	
-	
+
+
 </body>
 </html>
